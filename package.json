@@ -1,16 +1,24 @@
 {
-  "name": "vuepress_sample",
+  "name": "vpdemo1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fascinating sentence",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+	"docs:build": "vuepress build"
   },
-  "devDependencies": {
-        "vuepress": "^1.0.0"
-    },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:YusukeOIT/vuepress_sample.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/YusukeOIT/vuepress_sample/blob/master/README.md",
+  "dependencies": {
+    "vuepress": "^0.12.0"
+  }
 }
